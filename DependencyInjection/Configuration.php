@@ -17,7 +17,7 @@ class Configuration implements ConfigurationInterface {
      */
     public function getConfigTreeBuilder() {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('shaygan_recommender');
+        $rootNode = $treeBuilder->root('shaygan_recommender_ir');
 
 
         $rootNode
