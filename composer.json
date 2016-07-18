@@ -16,7 +16,7 @@
     ],
     "require": {
         "symfony/framework-bundle": ">=2.2",
-        "evandhq/php-recommenderir": ">=dev-master"
+        "evandhq/php-recommenderir": "dev-master"
     },
     "autoload": {
         "psr-0": {
