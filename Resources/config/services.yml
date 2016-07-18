@@ -1,0 +1,4 @@
+services:
+    shaygan.recommender:
+        class: Shaygan\RecommenderIrBundle\Recommender
+        arguments: ['@service_container']

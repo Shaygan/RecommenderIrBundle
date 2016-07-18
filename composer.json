@@ -1,0 +1,27 @@
+{
+    "name": "shaygan/recommender-ir-bundle",
+    "type": "symfony-bundle",
+    "description": "A simple wrapper for recommender.ir.",
+    "keywords": ["recommender", "recommender.ir", "php", "symfony2"],
+    "homepage": "http://i-gh.ir",
+    "version": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iman Ghasrfakhri",
+            "email": "iman@i-gh.ir",
+            "homepage": "http://i-gh.ir",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": ">=2.2",
+        "evandhq/php-recommenderir": ">=dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Shaygan\\RecommenderIrBundle": ""
+        }
+    },
+    "target-dir": "Shaygan/RecommenderIrBundle"
+}
